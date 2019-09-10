@@ -16,7 +16,7 @@ import helloReducer from "./reducers/helloReducer";
 //
 const store = createStore(
   combineReducers({
-    hello: helloReducer()
+    hello: helloReducer
   })
 );
 export {store};
