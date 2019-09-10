@@ -2,11 +2,11 @@
 // Initial state
 //
 const initialState = {
-  text: 'Hello world'
+  text: 'Edit HomeScreen.js to start working on your app!'
 };
 
 //
-// Reducers
+// Reducer
 //
 const helloReducer = (state = initialState, action) => {
   switch(action.type){
