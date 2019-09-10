@@ -1,5 +1,9 @@
+// React/React Native Core
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+// Redux
+import store from './src/redux/store';
+import { Provider } from 'react-redux';
 
 export default function App() {
   return (
